@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>超级管理员</title>
+    <style>
+        .form
+        {
+            border:1px solid #2120ff;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="http://localhost:8000/GroupAuthorities/" method="post" class="form">
+        增加组权限<br>
+        用户组名<input name="group" ><br>
+        模型名称<input name="table" ><br>
+        操作方式:<br>
+        GET<input name="action" value="GET" type="radio">
+        POST<input name="action" value="POST" type="radio">
+        PUT<input name="action" value="PUT" type="radio">
+        DELETE<input name="action" value="DELETE" type="radio"><br>
+        <input type="submit" value="提交"><br>
+
+    </form>
+
+
+
+
+
+
+</body>
+</html>

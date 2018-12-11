@@ -1,0 +1,31 @@
+
+备忘：为了2个月以后依然能看懂自己的代码，特此备忘
+
+注册设置初始组：
+    Users应用.UserViewSet.perform_create
+
+初始化自定义的权限验证类，为request添加权限属性：
+    APIView的父类View的as_view方法的内嵌函数view处添加
+
+添加跨域post免检标记，为已通过token认证用户的request添加user属性：
+    Users应用的中间件middleware中的AuthenticationMiddlewareJWT类
+
+权限验证：
+    1，源码view部分调用权限类，权限类是个权限工厂，返回权限相应权限对象，view将此对象添加进request
+    2，视图views部分通过检查权限对象相关属性判断权限，如果权限不足，向此对象索取允许访问的部分数据
+    3，权限继承于同一个父类，改写4种请求方式以返回对应的数据
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

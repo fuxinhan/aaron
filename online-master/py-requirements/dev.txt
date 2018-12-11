@@ -1,0 +1,15 @@
+-r base.txt
+
+mock
+factory-boy
+
+prospector
+bandit
+
+pytest
+pytest-cov
+pytest-django
+pytest-pythonpath
+pytest-xdist
+
+ptpython
