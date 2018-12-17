@@ -1,4 +1,4 @@
-import { title, mlAuto, mrAuto } from "assets/jss/material-kit-pro-react.jsx";
+import { title, mlAuto, mrAuto } from "../../../../assets/jss/material-kit-pro-react.jsx";
 
 const featuresStyle = {
   featuresSection: {

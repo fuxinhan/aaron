@@ -9,7 +9,7 @@ import {
   card,
   dangerColor,
   successColor
-} from "assets/jss/material-kit-pro-react.jsx";
+} from "../../../../assets/jss/material-kit-pro-react.jsx";
 
 const freeDemoStyle = {
   container,

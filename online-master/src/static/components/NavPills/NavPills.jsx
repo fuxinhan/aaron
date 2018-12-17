@@ -14,7 +14,7 @@ import Tabs from "@material-ui/core/Tabs";
 import GridContainer from "../Grid/GridContainer.jsx";
 import GridItem from "../Grid/GridItem.jsx";
 
-import navPillsStyle from "../../styles/components/navPillsStyle.jsx";
+import navPillsStyle from "../../../assets/jss/material-kit-pro-react/components/navPillsStyle.jsx";
 
 class NavPills extends React.Component {
   constructor(props) {

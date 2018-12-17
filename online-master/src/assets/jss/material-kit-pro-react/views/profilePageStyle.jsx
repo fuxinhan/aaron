@@ -6,11 +6,11 @@ import {
   mrAuto,
   main,
   mainRaised
-} from "assets/jss/material-kit-pro-react.jsx";
+} from "../../../../assets/jss/material-kit-pro-react.jsx";
 
-import imagesStyle from "assets/jss/material-kit-pro-react/imagesStyles.jsx";
+import imagesStyle from "../../../../assets/jss/material-kit-pro-react/imagesStyles.jsx";
 
-import tooltipsStyle from "assets/jss/material-kit-pro-react/tooltipsStyle.jsx";
+import tooltipsStyle from "../../../../assets/jss/material-kit-pro-react/tooltipsStyle.jsx";
 
 const profilePageStyle = {
   container,
@@ -140,6 +140,38 @@ const profilePageStyle = {
   parallax: {
     height: "380px",
     backgroundPosition: "top center"
+  },
+  headerInfo:{
+    height:"80px",
+    backgroundColor:"currentColor",
+    margin:"20px auto"
+  },
+  headerLeft:{
+    display:"inline-block"
+  },
+  headerLeftIcon:{
+    width:"60px",
+    height:"60px",
+    margin:"10px",
+    borderRadius:"50%",
+    display:"inline-block"
+  },
+  headerName:{
+    display:"inline-block",
+    verticalAlign:"top",
+    marginTop:"10px",
+  },
+  headerNameT:{
+    color:"red",
+    fontSize:"24px",
+    marginBottom:"5px"
+  },
+  headerB:{
+
+  },
+  headerRight:{
+    float:"right",
+    lineHeight:"80px"
   }
 };
 

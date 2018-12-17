@@ -21,7 +21,7 @@ class SingleItem extends React.Component {
     render() {
         const { classes } = this.props;
         return (
-                <GridItem xs={12} sm={6} md={4} lg={3}>
+                <GridItem xs={12} sm={6} md={6} lg={4}>
                     <Card>
                         <CardHeader image>
                             <Link to="ProductDetails">

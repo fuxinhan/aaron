@@ -1,9 +1,9 @@
-import headerLinksStyle from "assets/jss/material-kit-pro-react/components/headerLinksStyle.jsx";
+import headerLinksStyle from "../../../../../assets/jss/material-kit-pro-react/components/headerLinksStyle.jsx";
 import {
   container,
   mrAuto,
   title
-} from "assets/jss/material-kit-pro-react.jsx";
+} from "../../../../../assets/jss/material-kit-pro-react.jsx";
 
 const headersSection = theme => ({
   ...headerLinksStyle(theme),

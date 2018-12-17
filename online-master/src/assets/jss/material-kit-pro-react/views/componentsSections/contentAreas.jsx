@@ -1,7 +1,7 @@
-import { title, mrAuto, mlAuto } from "assets/jss/material-kit-pro-react.jsx";
-import checkboxes from "assets/jss/material-kit-pro-react/customCheckboxRadioSwitchStyle.jsx";
-import buttonGroup from "assets/jss/material-kit-pro-react/buttonGroupStyle.jsx";
-import tooltips from "assets/jss/material-kit-pro-react/tooltipsStyle.jsx";
+import { title, mrAuto, mlAuto } from "../../../../assets/jss/material-kit-pro-react.jsx";
+import checkboxes from "../../../../assets/jss/material-kit-pro-react/customCheckboxRadioSwitchStyle.jsx";
+import buttonGroup from "../../../../../assets/jss/material-kit-pro-react/buttonGroupStyle.jsx";
+import tooltips from "../../../../assets/jss/material-kit-pro-react/tooltipsStyle.jsx";
 const contentAreas = {
   title,
   mrAuto,

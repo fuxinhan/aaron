@@ -3,7 +3,7 @@ import {
   title,
   cardTitle,
   coloredShadow
-} from "assets/jss/material-kit-pro-react.jsx";
+} from "../../../../assets/jss/material-kit-pro-react.jsx";
 
 const sectionSimilarStoriesStyle = {
   container,

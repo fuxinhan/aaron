@@ -1,4 +1,4 @@
-import { title, mrAuto, mlAuto } from "assets/jss/material-kit-pro-react.jsx";
+import { title, mrAuto, mlAuto } from "../../../../assets/jss/material-kit-pro-react.jsx";
 
 const workStyle = {
   mrAuto,

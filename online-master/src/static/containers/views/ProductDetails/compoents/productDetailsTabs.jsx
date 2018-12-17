@@ -5,9 +5,13 @@ import withStyles from "@material-ui/core/styles/withStyles";
 
 // @material-ui/icons
 import Face from "@material-ui/icons/Face";
+import Label from "@material-ui/icons/Label";
 import Chat from "@material-ui/icons/Chat";
 import Build from "@material-ui/icons/Build";
+import BookmarkBorder from "@material-ui/icons/BookmarkBorder";
 // core components
+import SectionComment from "./sectionComments.jsx";
+import ProductCards from "./productCards.jsx";
 import GridContainer from "../../../../components/Grid/GridContainer.jsx";
 import GridItem from "../../../../components/Grid/GridItem.jsx";
 import CustomTabs from "../../../../components/CustomTabs/CustomTabs.jsx";
@@ -29,38 +33,46 @@ class SectionTabs extends React.Component {
                       tabName: "课程章节",
                       tabIcon: Face,
                       tabContent: (
-                        <p className={classes.textCenter}>
-                          I think that’s a responsibility that I have, to push
-                          possibilities, to show people, this is the level that
-                         
-                          the nucleus.
-                        </p>
+                        <div>
+                          <Label className={classes.iconLeft} />
+                          <div className={classes.tabsLHM}>
+                            <h4>第一章 课程介绍</h4>
+                            <p>介绍课程目标、通过课程能学习到的内容、和系统开发前需要具备的知识</p>
+                            <ul className={classes.tabsMT}>
+                              <BookmarkBorder className={classes.iconSmall}/>
+                              <li>1-1 python分布式爬虫打造搜索引擎简介</li>
+                            </ul>
+                          </div>
+
+                          <Label className={classes.iconLeft} />
+                          <div className={classes.tabsLHM}>
+                            <h4>第二章 课程介绍</h4>
+                            <p>介绍课程目标、通过课程能学习到的内容、和系统开发前需要具备的知识</p>
+                            <ul className={classes.tabsMT}>
+                              <BookmarkBorder className={classes.iconSmall}/>
+                              <li>2-1 python分布式爬虫打造搜索引擎简介</li>
+                            </ul>
+                            <ul className={classes.tabsMT}>
+                              <BookmarkBorder className={classes.iconSmall}/>
+                              <li>2-2 python分布式爬虫打造搜索引擎简介</li>
+                            </ul>
+                          </div>
+                        </div>
+                        
                       )
                     },
                     {
                       tabName: "用户评价",
                       tabIcon: Chat,
                       tabContent: (
-                        <p className={classes.textCenter}>
-                          I think that’s a responsibility that I have, to push
-                          possibilities, to show people, this is the level that
-                          things could be at. I will be the leader of a company
-                          that ends up being worth billions of dollars, because
-                          I got the answers. I understand culture. I am the
-                      
-                          level that things could be at.
-                        </p>
+                        <SectionComment/>
                       )
                     },
                     {
-                        tabName: "售前咨询",
+                        tabName: "课程服务",
                         tabIcon: Build,
                         tabContent: (
-                          <p className={classes.textCenter}>
-                            think that’s a responsibility that I have, to push
-                            possibilities, to show people, this is the level that
-                           
-                          </p>
+                          <ProductCards/>
                         )
                       }
                   ]}

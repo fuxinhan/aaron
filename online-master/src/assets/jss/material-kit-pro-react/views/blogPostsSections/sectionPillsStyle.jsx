@@ -1,6 +1,6 @@
-import { cardTitle } from "assets/jss/material-kit-pro-react.jsx";
+import { cardTitle } from "../../../../assets/jss/material-kit-pro-react.jsx";
 
-import tooltipsStyle from "assets/jss/material-kit-pro-react/tooltipsStyle.jsx";
+import tooltipsStyle from "../../../../assets/jss/material-kit-pro-react/tooltipsStyle.jsx";
 
 const sectionPillsStyle = {
   ...tooltipsStyle,

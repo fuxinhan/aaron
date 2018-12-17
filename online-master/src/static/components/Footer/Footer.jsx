@@ -7,7 +7,7 @@ import classNames from 'classnames';
 // @material-ui/core components
 import withStyles from '@material-ui/core/styles/withStyles';
 
-import footerStyle from '../../styles/components/footerStyle'
+import footerStyle from '../../../assets/jss/material-kit-pro-react/components/footerStyle'
 
 function Footer(props) {
   const { children, content, classes, theme, big, className } = props;

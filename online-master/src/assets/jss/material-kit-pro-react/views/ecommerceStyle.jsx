@@ -6,8 +6,8 @@ import {
   mlAuto,
   container,
   description
-} from "assets/jss/material-kit-pro-react.jsx";
-import imagesStyles from "assets/jss/material-kit-pro-react/imagesStyles.jsx";
+} from "../../../../assets/jss/material-kit-pro-react.jsx";
+import imagesStyles from "../../../../assets/jss/material-kit-pro-react/imagesStyles.jsx";
 
 const styles = {
   ...imagesStyles,

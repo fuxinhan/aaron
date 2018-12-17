@@ -6,7 +6,7 @@ import classNames from 'classnames';
 // @material-ui/core components
 import withStyles from '@material-ui/core/styles/withStyles';
 
-import infoStyle from '../../styles/components/infoStyle'
+import infoStyle from '../../../assets/jss/material-kit-pro-react/components/infoStyle'
 
 function InfoArea({ ...props }) {
   const {

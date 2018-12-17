@@ -6,7 +6,7 @@ import {
   description,
   mlAuto,
   mrAuto
-} from "assets/jss/material-kit-pro-react.jsx";
+} from "../../../../assets/jss/material-kit-pro-react.jsx";
 
 const sectionStyle = {
   sectionSections: {

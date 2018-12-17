@@ -4,7 +4,7 @@ import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 
 import Footer from "../../../components/Footer/Footer.jsx";
-import loginPageStyle from "../../../styles/views/loginPageStyle.jsx";
+import loginPageStyle from "../../../../assets/jss/material-kit-pro-react/views/loginPageStyle";
 
 
 class Footers extends React.Component {

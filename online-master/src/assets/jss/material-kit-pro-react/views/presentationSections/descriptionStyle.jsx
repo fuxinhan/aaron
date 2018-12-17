@@ -1,4 +1,4 @@
-import { container, section } from "assets/jss/material-kit-pro-react.jsx";
+import { container, section } from "../../../../assets/jss/material-kit-pro-react.jsx";
 
 const descriptionStyle = {
   container,

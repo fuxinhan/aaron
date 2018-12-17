@@ -17,7 +17,7 @@ class SingleItem extends React.Component {
     render() {
         const { classes } = this.props;
         return (
-            <GridItem xs={12} sm={2} md={3}>
+            <GridItem xs={12} sm={6} md={6} lg={4}>
                 <Card profile>
                     <CardAvatar profile>
                         <a href="#pablo" onClick={e => e.preventDefault()}>

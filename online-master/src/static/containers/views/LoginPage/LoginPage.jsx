@@ -19,12 +19,12 @@ import CardBody from "../../../components/Card/CardBody.jsx";
 import CardHeader from "../../../components/Card/CardHeader.jsx";
 import CustomInput from "../../../components/CustomInput/CustomInput.jsx";
 
-import loginPageStyle from "../../../styles/views/loginPageStyle.jsx";
+import loginPageStyle from "../../../../assets/jss/material-kit-pro-react/views/loginPageStyle";
 import MyHeader from '../components/MyHeader'
 import Footers from '../components/Footers'
 // import Footer from "../../../components/Footer/Footer.jsx";
 
-import image from "../../../images/bg7.jpg";
+import image from "../../../../assets/img/bg7.jpg";
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { push } from 'react-router-redux';
@@ -269,8 +269,8 @@ class LoginPageView extends React.Component {
               </GridItem>
             </GridContainer>
           </div>
-          <Footers/>
         </div>
+        <Footers/>
       </div>
     );
   }

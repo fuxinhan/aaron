@@ -102,7 +102,8 @@ const styles = {
   },
   spanQian:{
     fontSize:'1.5em',
-    marginRight:'1em'
+    marginRight:'1em',
+    color:"#222"
   },
   spanZh:{
     fontSize:'1.5em'
@@ -116,6 +117,16 @@ const styles = {
   },
   width70:{
     width:"70%"
+  },
+  notice:{
+    
+  },
+  noticeIcon:{
+    padding:"0px 20px",
+    borderRadius:"5px",
+    background:"#999",
+    color:"white",
+    fontSize:"20px"
   }
 };
 

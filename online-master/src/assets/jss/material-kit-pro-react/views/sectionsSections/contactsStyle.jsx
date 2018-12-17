@@ -6,9 +6,9 @@ import {
   title,
   description,
   cardTitle
-} from "assets/jss/material-kit-pro-react.jsx";
+} from "../../../../assets/jss/material-kit-pro-react.jsx";
 
-import customCheckboxRadioSwitch from "assets/jss/material-kit-pro-react/customCheckboxRadioSwitchStyle.jsx";
+import customCheckboxRadioSwitch from "../../../../assets/jss/material-kit-pro-react/customCheckboxRadioSwitchStyle.jsx";
 
 const contactsSection = {
   ...customCheckboxRadioSwitch,

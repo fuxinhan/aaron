@@ -1,4 +1,4 @@
-import { cardTitle } from "assets/jss/material-kit-pro-react.jsx";
+import { cardTitle } from "../../../../assets/jss/material-kit-pro-react.jsx";
 const sectionBlogInfoStyle = {
   section: {
     paddingTop: "30px",

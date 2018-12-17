@@ -14,7 +14,7 @@ import Clear from '@material-ui/icons/Clear';
 import Check from '@material-ui/icons/Check';
 // core components
 
-import customInputStyle from '../../styles/components/customInputStyle'
+import customInputStyle from '../../../assets/jss/material-kit-pro-react/components/customInputStyle'
 
 function CustomInput({ ...props }) {
   const {

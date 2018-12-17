@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 // @material-ui/core components
 import withStyles from '@material-ui/core/styles/withStyles';
 // core components
-import typographyStyle from '../../styles/components/typographyStyle'
+import typographyStyle from '../../../assets/jss/material-kit-pro-react/components/typographyStyle'
 
 function Quote({ ...props }) {
   const {

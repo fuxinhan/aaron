@@ -8,7 +8,7 @@ import withStyles from "@material-ui/core/styles/withStyles";
 import CustomInput from "../CustomInput/CustomInput.jsx";
 import Button from "../CustomButtons/Button.jsx";
 
-import styles from "../../styles/components/customFileInputStyle.jsx";
+import styles from "../../../assets/jss/material-kit-pro-react/components/customFileInputStyle.jsx";
 
 @inject((stores) => {
   return {

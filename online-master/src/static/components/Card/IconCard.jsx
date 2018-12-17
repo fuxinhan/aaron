@@ -8,7 +8,7 @@ import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import CardHeader from "@material-ui/core/CardHeader";
 
-import iconCardStyle from "../../styles/components/iconCardStyle.jsx";
+import iconCardStyle from "../../../assets/jss/material-kit-pro-react/components/iconCardStyle.jsx";
 
 function IconCard({ ...props }) {
   const {

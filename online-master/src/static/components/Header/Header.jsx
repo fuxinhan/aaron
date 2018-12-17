@@ -17,8 +17,7 @@ import Menu from '@material-ui/icons/Menu'
 import Close from '@material-ui/icons/Close'
 
 // core components
-import headerStyle from '../../styles/components/headerStyle'
-
+import headerStyle from '../../../assets/jss/material-kit-pro-react/components/headerStyle'
 class Header extends React.Component {
   constructor(props) {
     super(props)

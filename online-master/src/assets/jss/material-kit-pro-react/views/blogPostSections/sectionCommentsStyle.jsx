@@ -1,13 +1,12 @@
-import { title } from "assets/jss/material-kit-pro-react.jsx";
+import { title } from "../../../../../assets/jss/material-kit-pro-react.jsx";
 
-import tooltipsStyle from "assets/jss/material-kit-pro-react/tooltipsStyle.jsx";
+import tooltipsStyle from "../../../../../assets/jss/material-kit-pro-react/tooltipsStyle.jsx";
 
 const sectionCommentsStyle = {
   ...tooltipsStyle,
   section: {
     backgroundposition: "50%",
     backgroundSize: "cover",
-    padding: "70px 0"
   },
   title: {
     ...title,
@@ -32,7 +31,12 @@ const sectionCommentsStyle = {
     "&,& *": {
       color: "#555 !important"
     }
-  }
+  },
+  justifyContentCenter: {
+    WebkitBoxPack: "center !important",
+    MsFlexPack: "center !important",
+    justifyContent: "center !important"
+  },
 };
 
 export default sectionCommentsStyle;

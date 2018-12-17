@@ -3,8 +3,8 @@ import {
   title,
   main,
   mainRaised
-} from "assets/jss/material-kit-pro-react.jsx";
-import footerStyle from "assets/jss/material-kit-pro-react/views/componentsSections/footerStyle.jsx";
+} from "../../../../assets/jss/material-kit-pro-react.jsx";
+import footerStyle from "../../../../../assets/jss/material-kit-pro-react/views/componentsSections/footerStyle.jsx";
 
 const presentationStyle = {
   ...footerStyle,

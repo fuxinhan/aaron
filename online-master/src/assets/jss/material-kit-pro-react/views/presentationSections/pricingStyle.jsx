@@ -6,7 +6,7 @@ import {
   title,
   description,
   card
-} from "assets/jss/material-kit-pro-react.jsx";
+} from "../../../../assets/jss/material-kit-pro-react.jsx";
 
 const pricingStyle = {
   container,

@@ -4,7 +4,7 @@ import {
   title,
   description,
   cardTitle
-} from "assets/jss/material-kit-pro-react.jsx";
+} from "../../../../assets/jss/material-kit-pro-react.jsx";
 
 const teamStyle = {
   mrAuto,
